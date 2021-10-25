@@ -47,7 +47,7 @@ public class RssFeedIntegration {
   }
 
   /**
-   * Spring feed integration module can be used instead of custom pooling
+   * TODO: Spring feed integration module can be used instead of custom pooling
    */
   @Scheduled(fixedDelay = pollingAfterMs)
   public void execute() {
